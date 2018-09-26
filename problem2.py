@@ -8,17 +8,17 @@ limit = 4000000
 
 #fibonacci initialization
 a = 1
-b = 2
+b = 1
 c = a+b
-sumFibo = b #initialized the variable that will capture the sum of even valued terms 
+sumFibo = 0 #initialized the variable that will capture the sum of even valued terms 
 
 
 #loop for fibonacci series
 while c < limit:
-    if c%2 == 0:
-        sumFibo = sumFibo + c
-    a = b
-    b = c
+    #if c%2 == 0:
+    sumFibo = sumFibo + c
+    a = b + c
+    b = c + a
     c = a + b
     step = step + 1
 
