@@ -1,0 +1,1 @@
+It is not recommended to create data structures like list or dict to store temporary data like prime numbers. When the list grows long it takes a lot of time to append new numbers to it. it is better to go with a solution where no data structures are created that are appended with new values
