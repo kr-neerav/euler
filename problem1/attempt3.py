@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 
-s1 = int(999/3)
-s2 = int(999/5)
-s3 = int(999/15)
+def sum_of_series(upper_limit:int, factor:int) -> int:
+    s = int(upper_limit/factor)
+    return int(factor*s*(s+1)/2)
 
-s = 3*s1*(s1+1)/2 + 5*s2*(s2+1)/2 - 15*s3*(s3+1)/2
+upper_limit = 999
+div1 = 3
+div2 = 5
 
-print(s)
+output = sum_of_series(upper_limit, div1) + sum_of_series(upper_limit, div2) - sum_of_series(upper_limit, div1*div2)
+
+print(output)
