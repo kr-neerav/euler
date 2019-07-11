@@ -1,0 +1,17 @@
+906609
+         868139 function calls in 0.405 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     8305    0.029    0.000    0.035    0.000 attempt3.py:11(is_palindrome)
+        1    0.293    0.293    0.405    0.405 attempt3.py:3(<module>)
+   810000    0.077    0.000    0.077    0.000 attempt3.py:3(is_large)
+    49826    0.006    0.000    0.006    0.000 attempt3.py:7(get_remainder)
+        2    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.405    0.405 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
