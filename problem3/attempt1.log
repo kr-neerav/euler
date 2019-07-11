@@ -1,5 +1,5 @@
 6857
-         48900916 function calls in 18.664 seconds
+         48963216 function calls in 24.445 seconds
 
    Ordered by: standard name
 
@@ -35,9 +35,9 @@
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:882(_find_spec)
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:948(_find_and_load_unlocked)
         1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:978(_find_and_load)
-        1    0.225    0.225   18.664   18.664 attempt1.py:3(<module>)
- 47350558    8.376    0.000    8.376    0.000 attempt1.py:5(is_divisible)
-   775144    9.870    0.000   18.439    0.000 attempt1.py:8(is_prime)
+        1    0.317    0.317   24.445   24.445 attempt1.py:3(<module>)
+ 47412858   11.129    0.000   11.129    0.000 attempt1.py:5(is_divisible)
+   775144   12.716    0.000   24.098    0.000 attempt1.py:8(is_prime)
         2    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
         2    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
         3    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
@@ -48,11 +48,11 @@
         2    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
         2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
         1    0.000    0.000    0.000    0.000 {built-in method builtins.any}
-        1    0.000    0.000   18.664   18.664 {built-in method builtins.exec}
+        1    0.000    0.000   24.445   24.445 {built-in method builtins.exec}
         4    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
         4    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
         1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
-   775145    0.193    0.000    0.193    0.000 {built-in method math.sqrt}
+   775145    0.284    0.000    0.284    0.000 {built-in method math.sqrt}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
         2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
         2    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
