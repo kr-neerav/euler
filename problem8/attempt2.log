@@ -1,0 +1,20 @@
+23514624000
+         15829 function calls in 0.007 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.007    0.007 attempt2.py:23(<module>)
+    12844    0.002    0.000    0.002    0.000 attempt2.py:26(multiply)
+      988    0.003    0.000    0.005    0.000 attempt2.py:30(multiply_list)
+        1    0.000    0.000    0.000    0.000 attempt2.py:37(str_to_numlist)
+        2    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        1    0.000    0.000    0.007    0.007 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.001    0.001    0.001    0.001 {built-in method builtins.print}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      987    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+
+
