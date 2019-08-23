@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def is_divisible(i:int, j:int) -> bool:
     """return if i is divisible by j"""
