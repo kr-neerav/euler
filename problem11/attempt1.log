@@ -1,0 +1,23 @@
+70600674
+         12990 function calls in 0.005 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.005    0.005 {built-in method builtins.exec}
+        1    0.001    0.001    0.005    0.005 attempt1.py:3(<module>)
+     9784    0.001    0.000    0.001    0.000 attempt1.py:28(get_num_at_pos)
+      400    0.000    0.000    0.001    0.000 attempt1.py:98(get_diagonal_down_right)
+      400    0.000    0.000    0.001    0.000 attempt1.py:45(get_down)
+      400    0.000    0.000    0.001    0.000 attempt1.py:84(get_diagonal_up_right)
+      400    0.000    0.000    0.001    0.000 attempt1.py:58(get_left)
+      400    0.000    0.000    0.001    0.000 attempt1.py:112(get_diagonal_up_left)
+      400    0.000    0.000    0.001    0.000 attempt1.py:32(get_up)
+      400    0.000    0.000    0.001    0.000 attempt1.py:71(get_right)
+        1    0.000    0.000    0.000    0.000 attempt1.py:26(<listcomp>)
+      400    0.000    0.000    0.000    0.000 attempt1.py:126(get_diagonal_down_left)
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
