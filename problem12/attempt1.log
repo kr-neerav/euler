@@ -1,0 +1,15 @@
+         2045651299 function calls in 459.830 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  459.830  459.830 {built-in method builtins.exec}
+        1    0.011    0.011  459.830  459.830 attempt1.py:4(<module>)
+     2306  268.503    0.116  459.693    0.199 attempt1.py:15(get_divisors)
+2045572336  191.179    0.000  191.179    0.000 attempt1.py:11(is_divisor)
+     2306    0.124    0.000    0.124    0.000 attempt1.py:4(get_triangle_number)
+    72042    0.011    0.000    0.011    0.000 {method 'append' of 'list' objects}
+     2306    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
