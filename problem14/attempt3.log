@@ -1,0 +1,15 @@
+525
+837799
+         12452519 function calls (7226260 primitive calls) in 6.244 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    6.244    6.244 {built-in method builtins.exec}
+        1    0.645    0.645    6.244    6.244 attempt3.py:3(<module>)
+6226258/999999    5.156    0.000    5.599    0.000 attempt3.py:13(get_series_len)
+  6226256    0.443    0.000    0.443    0.000 {method 'keys' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
